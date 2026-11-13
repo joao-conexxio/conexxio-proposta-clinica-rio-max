@@ -1,0 +1,47 @@
+<section class="blk-cor" id="coracao">
+  <div class="wrap">
+    <div class="blk-cor__cab" data-reveal>
+      <p class="blk-cor__eyebrow">Cardiologia na Rio Max</p>
+      <h2 class="blk-cor__titulo">Consulta e exames do coração no mesmo andar</h2>
+      <p class="blk-cor__lead" data-acende>São três cardiologistas na equipe. Quando a consulta pede exame, ele é feito ali mesmo, na sobreloja da Estrada de Jacarepaguá, sem você precisar procurar outro laboratório.</p>
+    </div>
+    <ol class="blk-cor__grade">
+      <li class="blk-cor__card" data-reveal style="--d:0ms">
+        <span class="blk-cor__ic"><!--icone:batimento--></span>
+        <h3>Eletrocardiograma</h3>
+        <p>O registro da atividade elétrica do coração. Rápido, sem dor, feito deitado.</p>
+        <div class="blk-cor__traco"><!--motivo:accent--></div>
+      </li>
+      <li class="blk-cor__card" data-reveal style="--d:120ms">
+        <span class="blk-cor__ic"><!--icone:ultrassom--></span>
+        <h3>Ecocardiograma</h3>
+        <p>Ultrassom do coração: mostra o tamanho das câmaras, as válvulas e como o músculo se contrai.</p>
+        <div class="blk-cor__traco"><!--motivo:accent--></div>
+      </li>
+      <li class="blk-cor__card" data-reveal style="--d:240ms">
+        <span class="blk-cor__ic"><!--icone:coracao--></span>
+        <h3>MAPA</h3>
+        <p>A pressão medida ao longo de 24 horas, com o aparelho no braço enquanto você segue a rotina.</p>
+        <div class="blk-cor__traco"><!--motivo:accent--></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-cor{padding-block:var(--sp-section)}
+.blk-cor__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse);font-weight:700}
+.blk-cor__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-cor__lead{margin:var(--sp-3) 0 var(--sp-5);font-size:1.1rem;line-height:1.6;color:var(--ink);max-width:40rem}
+.blk-cor__grade{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-cor__card{position:relative;overflow:hidden;padding:var(--sp-4) var(--sp-4) 0;border-radius:var(--radius);background:color-mix(in srgb,var(--brand) 6%,var(--bg));border:1px solid color-mix(in srgb,var(--brand) 14%,transparent)}
+.blk-cor__card h3{margin:var(--sp-2) 0 var(--sp-1);font-family:var(--f-display);font-size:1.45rem;color:var(--brand)}
+.blk-cor__card p{margin:0 0 var(--sp-3);color:color-mix(in srgb,var(--ink) 78%,transparent);line-height:1.55}
+.blk-cor__ic{display:inline-flex;width:2.5rem;height:2.5rem;color:var(--pulse)}
+.blk-cor__ic svg{width:100%;height:100%}
+.blk-cor__traco{margin-inline:calc(var(--sp-4) * -1);color:var(--pulse);opacity:.85}
+.blk-cor__traco svg{display:block;width:100%;height:auto}
+@media (min-width:900px){
+  .blk-cor__grade{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+</style>

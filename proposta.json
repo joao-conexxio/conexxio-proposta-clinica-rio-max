@@ -1,0 +1,485 @@
+{
+  "slug": "clinica-rio-max",
+  "negocio": {
+    "nome": "Clínica Rio Max",
+    "logo": "brand/logo.svg",
+    "whatsapp": "552124470040",
+    "telefone": "(21) 2447-0040",
+    "funcionamento": {
+      "seg": "07:00-19:00",
+      "ter": "07:00-19:00",
+      "qua": "07:00-19:00",
+      "qui": "07:00-19:00",
+      "sex": "07:00-19:00",
+      "sab": "07:00-14:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Rio das Pedras · Jacarepaguá",
+        "endereco": "Estrada de Jacarepaguá, 3602 – Sobreloja – Rio das Pedras, Rio de Janeiro – RJ, 22753-211",
+        "telefone": "(21) 2447-0040 · (21) 98478-2240",
+        "horario": "Segunda a sexta, 7h às 19h · Sábado, 7h às 14h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#02254A",
+    "brand2": "#16254C",
+    "ink": "#0F1C38",
+    "bg": "#FFFFFF",
+    "pulse": "#ED1459",
+    "radius": "20px",
+    "registro": "clinico",
+    "fontDisplay": "Outfit",
+    "fontBody": "Nunito Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "ecg",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Especialidades",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Exames",
+            "href": "#tecnologias"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Policlínica · Rio das Pedras",
+        "h1": "Consulta e exame no mesmo lugar, perto de casa",
+        "lead": "Catorze especialidades, exames de imagem e laboratório e uma equipe de 19 médicos, na Estrada de Jacarepaguá desde 2010. Aberta às 7h, inclusive aos sábados.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver especialidades",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/recepcao-equipe.jpg",
+        "imagemAlt": "Equipe da recepção da Clínica Rio Max reunida no balcão de atendimento",
+        "tarja": [
+          "Na Estrada de Jacarepaguá desde 2010",
+          "4,5 no Google, 756 avaliações",
+          "19 médicos, 14 especialidades",
+          "Sábado das 7h às 14h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Clínica geral",
+          "Cardiologia",
+          "Ginecologia e obstetrícia",
+          "Pediatria",
+          "Dermatologia",
+          "Ortopedia",
+          "Oftalmologia",
+          "Otorrino",
+          "Ultrassonografia",
+          "Exames laboratoriais"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "A Rio Max abriu em fevereiro de 2010 com uma conta simples: consulta com especialista e exame não deveriam exigir atravessar a cidade nem pagar preço de consultório da Zona Sul.",
+          "Hoje são salas climatizadas, ultrassom, laboratório e médicos de catorze especialidades numa sobreloja de Rio das Pedras. Dá para resolver a consulta da criança, o preventivo e o exame do coração da família no mesmo endereço."
+        ],
+        "imagem": "midia/consultorio.jpg",
+        "imagemAlt": "Consultório da Clínica Rio Max com maca ginecológica, mesa e quadro colorido na parede"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "lista",
+      "data": {
+        "titulo": "Especialidades",
+        "lead": "Consultas com médicos de cada área. Para saber dia e horário de cada especialista, chame a recepção.",
+        "itens": [
+          {
+            "nome": "Clínica geral",
+            "descricao": "O primeiro atendimento, check-up e o acompanhamento de pressão, diabetes e colesterol.",
+            "icone": "estetoscopio"
+          },
+          {
+            "nome": "Cardiologia",
+            "descricao": "Avaliação do coração, com eletro, ecocardiograma e MAPA feitos na própria clínica.",
+            "icone": "coracao"
+          },
+          {
+            "nome": "Ginecologia e obstetrícia",
+            "descricao": "Consulta de rotina, preventivo e pré-natal, com ultrassom no mesmo endereço.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Pediatria",
+            "descricao": "Consultas para bebês e crianças. O teste do olhinho também é feito aqui.",
+            "icone": "bebe"
+          },
+          {
+            "nome": "Dermatologia",
+            "descricao": "Manchas, acne, queda de cabelo e acompanhamento de pintas.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Ortopedia",
+            "descricao": "Dores na coluna, nas articulações, entorses e lesões do dia a dia.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Oftalmologia",
+            "descricao": "Exame de vista, receita de óculos e acompanhamento da saúde dos olhos.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Otorrinolaringologia",
+            "descricao": "Ouvido, nariz e garganta: sinusite, rinite, zumbido, amigdalite.",
+            "icone": "conversa"
+          },
+          {
+            "nome": "Endocrinologia",
+            "descricao": "Tireoide, diabetes, hormônios e controle de peso.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Gastroenterologia",
+            "descricao": "Estômago e intestino: refluxo, gastrite, intestino preso ou solto.",
+            "icone": "comprimido"
+          },
+          {
+            "nome": "Angiologia",
+            "descricao": "Varizes, inchaço nas pernas e circulação.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Urologia",
+            "descricao": "Próstata, rins e vias urinárias.",
+            "icone": "check"
+          },
+          {
+            "nome": "Neurologia e neuropediatria",
+            "descricao": "Dor de cabeça, tontura, convulsões e o desenvolvimento das crianças, com EEG na clínica.",
+            "icone": "cerebro"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/coracao.html"
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Outros exames feitos na clínica",
+        "itens": [
+          {
+            "nome": "Ultrassonografias",
+            "detalhe": "Obstétrica, morfológica e de outras regiões",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Exames laboratoriais",
+            "detalhe": "Coleta de sangue e outros materiais",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Preventivo",
+            "detalhe": "Papanicolau, com a ginecologista",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Teste do olhinho",
+            "detalhe": "Para recém-nascidos",
+            "icone": "olho"
+          },
+          {
+            "nome": "EEG",
+            "detalhe": "Eletroencefalograma",
+            "icone": "cerebro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Antes da consulta",
+        "titulo": "A recepção confirma um dia antes",
+        "lead": "Na véspera, a clínica chama no WhatsApp para confirmar. Se o médico precisar mudar o horário, você fica sabendo ali, e não no balcão.",
+        "cta": "Falar com a recepção",
+        "contato": "Clínica Rio Max",
+        "mensagens": [
+          {
+            "de": "clinica",
+            "texto": "Oi, Patrícia! Aqui é da Clínica Rio Max. Sua consulta com a ginecologista é amanhã às 9h."
+          },
+          {
+            "de": "clinica",
+            "texto": "Posso confirmar? Traga o pedido do ultrassom, se tiver."
+          },
+          {
+            "de": "paciente",
+            "texto": "Confirmado! Dá pra fazer o ultrassom no mesmo dia?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tenho às 10h20, logo depois da consulta. Quer que eu reserve?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Quero sim, obrigada!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A Rio Max em números",
+        "itens": [
+          {
+            "valor": "16 anos",
+            "rotulo": "em Rio das Pedras",
+            "contar": 16
+          },
+          {
+            "valor": "19",
+            "rotulo": "médicos na equipe",
+            "contar": 19
+          },
+          {
+            "valor": "14",
+            "rotulo": "especialidades",
+            "contar": 14
+          },
+          {
+            "valor": "756",
+            "rotulo": "avaliações no Google, nota 4,5",
+            "contar": 756
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Corpo clínico",
+        "itens": [
+          {
+            "nome": "Carlos Eduardo Passarini",
+            "especialidade": "Cardiologia e clínica geral",
+            "registro": "CRM 52831590"
+          },
+          {
+            "nome": "Rafaela Jabur",
+            "especialidade": "Cardiologia e clínica geral",
+            "registro": "CRM 5284000-9"
+          },
+          {
+            "nome": "Vitor Soares",
+            "especialidade": "Cardiologia",
+            "registro": "CRM 5272181-6"
+          },
+          {
+            "nome": "Renata Madureira",
+            "especialidade": "Gastroenterologia e clínica geral",
+            "registro": "CRM 5287909-6"
+          },
+          {
+            "nome": "Clara Gregov de Almeida",
+            "especialidade": "Ginecologia e obstetrícia",
+            "registro": "CRM 521107259"
+          },
+          {
+            "nome": "Maiúry Reco Bonfá",
+            "especialidade": "Ginecologia e obstetrícia",
+            "registro": "CRM 52114617"
+          },
+          {
+            "nome": "Manuela Marques Torres do Monte Pais",
+            "especialidade": "Ginecologia e obstetrícia",
+            "registro": "CRM 521018264"
+          },
+          {
+            "nome": "Mônica Breta Motta",
+            "especialidade": "Ginecologia e obstetrícia",
+            "registro": "CRM 5201122380"
+          },
+          {
+            "nome": "Rafaela Ascenso",
+            "especialidade": "Ginecologia e obstetrícia",
+            "registro": "CRM 5279169-5"
+          },
+          {
+            "nome": "Thaís Oliveira Cobucci",
+            "especialidade": "Ginecologia e obstetrícia",
+            "registro": "CRM 5282185-3"
+          },
+          {
+            "nome": "Giulia Maria Gomes da Silva",
+            "especialidade": "Pediatria",
+            "registro": "CRM 52993085"
+          },
+          {
+            "nome": "Fernanda Oliveira Cobucci",
+            "especialidade": "Dermatologia",
+            "registro": "CRM 5292120-3"
+          },
+          {
+            "nome": "Karen Elfrith Benicio Lira",
+            "especialidade": "Dermatologia",
+            "registro": "CRM 52938068"
+          },
+          {
+            "nome": "Lucas Pereira Ferraz",
+            "especialidade": "Ortopedia",
+            "registro": "CRM 520108944"
+          },
+          {
+            "nome": "Felipe Faur Gonçalves",
+            "especialidade": "Oftalmologia",
+            "registro": "CRM 52635545"
+          },
+          {
+            "nome": "Manuella Goes dos Santos Raposo",
+            "especialidade": "Otorrinolaringologia",
+            "registro": "CRM 521193511"
+          },
+          {
+            "nome": "William Schorchit Meirelles",
+            "especialidade": "Endocrinologia",
+            "registro": "CRM 5201082221"
+          },
+          {
+            "nome": "Paula Felizardo Pereira",
+            "especialidade": "Angiologia",
+            "registro": "CRM 52862274"
+          },
+          {
+            "nome": "Marcelo Franco",
+            "especialidade": "Urologia",
+            "registro": "CRM 5269497-5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem passou por lá",
+        "itens": [
+          {
+            "texto": "Atendimento excelente tanto na marcação como no dia dos exames. Profissionais atenciosos e, o principal, a rapidez de tudo. Muito organizado.",
+            "autor": "Assis P.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Fiz um exame e ele veio com o nome errado. A equipe resolveu a situação rapidamente e me concedeu um retorno gratuito.",
+            "autor": "Karine A.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "O atendimento do otorrinolaringologista foi excelente. Ótimo profissional.",
+            "autor": "Deborah C.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "A clínica abre no sábado?",
+            "r": "Abre, das 7h às 14h. De segunda a sexta, das 7h às 19h."
+          },
+          {
+            "p": "Consigo fazer a consulta e o exame no mesmo dia?",
+            "r": "Muitas vezes, sim. Ultrassom, eletrocardiograma, ecocardiograma e exames de laboratório são feitos na própria clínica. Peça à recepção para encaixar os dois em sequência."
+          },
+          {
+            "p": "Como marco uma consulta?",
+            "r": "Pelo WhatsApp ou pelo telefone (21) 2447-0040. Diga a especialidade e o melhor período, e a recepção oferece os horários livres."
+          },
+          {
+            "p": "Onde fica?",
+            "r": "Na Estrada de Jacarepaguá, 3602, sobreloja, em Rio das Pedras. Dá para chegar de carro ou de ônibus pela própria Estrada de Jacarepaguá."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Estrada de Jacarepaguá, em Rio das Pedras",
+        "imagem": "midia/espera.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Marque sua consulta",
+        "lead": "Diga a especialidade ou o exame pelo WhatsApp. A recepção responde com os horários livres da semana.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Especialidades",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Exames",
+            "href": "#tecnologias"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ],
+        "aviso": "Clínica Rio Max · Estrada de Jacarepaguá, 3602, sobreloja, Rio das Pedras, Rio de Janeiro – RJ."
+      }
+    }
+  ],
+  "wow": {
+    "assinatura": "gradient-mesh"
+  }
+}
